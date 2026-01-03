@@ -1,7 +1,20 @@
 # **Lab 1: Deploy a Custom Apache Web Server on Amazon EC2**  
 
-#### **Description:**  
+## **Description:**  
 In this project, I will launch a **Amazon EC2 instance** using **Amazon Linux 2023**, configure it as a web server with **Apache (httpd)**, and create a **customized webpage** with a simple, but modern design. The setup will be automated using **User Data** to ensure that the web server and webpages is configured automatically upon instance startup.
+
+## **How This Skill Benefits Companies:**
+### 👩🏽‍💻 Engineers
+
+Being able to securely create an AWS account, manage IAM users, and deploy an Apache web server on EC2 is foundational to building reliable cloud infrastructure. These skills ensure engineers can provision resources safely, follow least-privilege and MFA best practices, and quickly deploy scalable services that support real applications. Mastery here reduces misconfigurations, improves security posture, and enables faster delivery of production-ready workloads.
+
+### 📊 Managers
+
+Understanding how teams securely deploy infrastructure on AWS helps managers reduce operational risk while increasing delivery speed. Proper IAM usage and standardized EC2 deployments prevent costly security incidents, enable repeatable environments, and support predictable timelines. These capabilities allow teams to move faster without sacrificing governance, compliance, or reliability.
+
+### 🧠 Executives
+
+Secure cloud deployment capabilities directly impact business agility, cost control, and risk reduction. When teams can rapidly and securely launch infrastructure, the organization can scale products faster, respond to market demands, and avoid outages or security breaches that damage trust and revenue. This foundation enables cloud investments to translate into measurable business outcomes rather than technical debt.
 
 ## **Steps to Complete the Project**  
 
