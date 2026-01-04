@@ -1,7 +1,7 @@
 # **Lab 1: Deploy a Custom Apache Web Server on Amazon EC2**  
 
 ## **Description:**  
-In this project, I will launch a **Amazon EC2 instance** using **Amazon Linux 2023**, configure it as a web server with **Apache (httpd)**, and create a **customized webpage** with a simple, but modern design. The setup will be automated using **User Data** to ensure that the web server and webpages is configured automatically upon instance startup.
+In this project, I will launch a **Amazon EC2 instance** using **Amazon Linux 2023**, configure it as a web server with **Apache (httpd)**, and create a **customized webpage** with a simple, but modern design. The setup will be automated using **User Data** to ensure that the web server and webpage is configured automatically upon instance startup.
 
 ## **How This Skill Benefits Companies:**
 ### 👩🏽‍💻 Engineers
@@ -109,7 +109,7 @@ Secure cloud deployment capabilities directly impact business agility, cost cont
 ![AWS - Instance Created Successfully](https://raw.githubusercontent.com/justintimejlew/1-AWS-Web-Server-EC2/refs/heads/main/Screenshots/4.png)
 2. Next, I decided to connect to my **AMI instance** to confirm that my user data was added to the `/var/www/html` directory:
 ![AWS - Instance Configuration Summary](https://raw.githubusercontent.com/justintimejlew/1-AWS-Web-Server-EC2/refs/heads/main/Screenshots/5.png)
-3. Copied my **Public IPv4 Address** and pasted it into my web browser `http://<http://18.222.96.241/>`.
+3. Copied my **Public IPv4 Address** and pasted it into my web browser `http://18.222.96.241/` (This link is not active anymore since I terminated the instance).
 ![AWS - Instance Configuration Summary](https://raw.githubusercontent.com/justintimejlew/1-AWS-Web-Server-EC2/refs/heads/main/Screenshots/6.png)
 4. Once I confirmed I could see my webcontent, I **Terminated** the instance to avoid incurring any additional cost.
 ![AWS - Instance Configuration Summary](https://raw.githubusercontent.com/justintimejlew/1-AWS-Web-Server-EC2/refs/heads/main/Screenshots/7.png)
